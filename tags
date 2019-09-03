@@ -1,0 +1,224 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+APP_BASE_NAME	android/gradlew.bat	/^set APP_BASE_NAME=%~n0$/;"	v
+APP_HOME	android/gradlew.bat	/^set APP_HOME=%DIRNAME%$/;"	v
+Animatable	src/containers/Menu.js	/^import * as Animatable from 'react-native-animatable';$/;"	I
+App	App.js	/^export const App = () => {$/;"	E
+BORDER_RADIUS	src/config/metrics.js	/^export const BORDER_RADIUS = CELL_PADDING * 2;$/;"	E
+CELL_PADDING	src/config/metrics.js	/^export const CELL_PADDING = Math.floor(CELL_SIZE * 0.05);$/;"	E
+CELL_SIZE	src/config/metrics.js	/^export const CELL_SIZE = Math.floor((DEVICE_WIDTH * 0.8) \/ BOARD_ROWS);$/;"	E
+CLASSPATH	android/gradlew.bat	/^set CLASSPATH=%APP_HOME%\\gradle\\wrapper\\gradle-wrapper.jar$/;"	v
+CLEAR_STACK_DURATION	src/config/constants.js	/^export const CLEAR_STACK_DURATION = 2000;$/;"	E
+CMD_LINE_ARGS	android/gradlew.bat	/^set CMD_LINE_ARGS=$/;"	v
+CMD_LINE_ARGS	android/gradlew.bat	/^set CMD_LINE_ARGS=%*$/;"	v
+COLOR_BLACK	src/config/colors.js	/^export const COLOR_BLACK = '#000';$/;"	E
+COLOR_SHUTTLE_GRAY	src/config/colors.js	/^export const COLOR_SHUTTLE_GRAY = '#586069';$/;"	E
+COLOR_WHITE	src/config/colors.js	/^export const COLOR_WHITE = '#FFF'$/;"	E
+Card	src/components/Card.js	/^export const Card = ({ card, successOpacity = 0, failOpacity = 0 }) => {$/;"	E
+DEFAULT_JVM_OPTS	android/gradlew.bat	/^set DEFAULT_JVM_OPTS=$/;"	v
+DEVICE_HEIGHT	src/config/metrics.js	/^export const DEVICE_HEIGHT = height;$/;"	E
+DEVICE_WIDTH	src/config/metrics.js	/^export const DEVICE_WIDTH = width;$/;"	E
+DIRECTIONS	src/utils/buildCardStack.js	/^const DIRECTIONS = [$/;"	A
+DIRNAME	android/gradlew.bat	/^if "%DIRNAME%" == "" set DIRNAME=.$/;"	v
+DIRNAME	android/gradlew.bat	/^set DIRNAME=%~dp0$/;"	v
+FOLLOW_TYPES	src/config/constants.js	/^export const FOLLOW_TYPES = ['arrow', 'text'];$/;"	E
+FlingView	src/components/FlingView.js	/^export const FlingView = memo(({ children, onFlingFinished }) => {$/;"	E
+GRADIENT_COLORS	src/config/colors.js	/^export const GRADIENT_COLORS = ['#78fee0', '#4bc2c5'];$/;"	E
+GameStatuses	src/types/GameStatuses.js	/^export const GameStatuses = {$/;"	E
+INITIAL_TIME	src/config/constants.js	/^export const INITIAL_TIME = 60;$/;"	E
+INTERLUDE_DURATION	src/config/constants.js	/^export const INTERLUDE_DURATION = 2000;$/;"	E
+IS_ANDROID	src/config/constants.js	/^export const IS_ANDROID = Platform.OS === 'android';$/;"	E
+IS_DEBUG_MODE_ENABLED	src/config/constants.js	/^export const IS_DEBUG_MODE_ENABLED = window.navigator.userAgent;$/;"	E
+IS_ENV_DEVELOPMENT	src/config/constants.js	/^export const IS_ENV_DEVELOPMENT = __DEV__;$/;"	E
+IS_IOS	src/config/constants.js	/^export const IS_IOS = Platform.OS === 'ios';$/;"	E
+JAVA_EXE	android/gradlew.bat	/^set JAVA_EXE=%JAVA_HOME%\/bin\/java.exe$/;"	v
+JAVA_EXE	android/gradlew.bat	/^set JAVA_EXE=java.exe$/;"	v
+JAVA_HOME	android/gradlew.bat	/^set JAVA_HOME=%JAVA_HOME:"=%$/;"	v
+LETTER_SIZE	src/config/metrics.js	/^export const LETTER_SIZE = Math.floor(TILE_SIZE * 0.75);$/;"	E
+MENU_ANIM_DURATION	src/config/constants.js	/^export const MENU_ANIM_DURATION = 1000;$/;"	E
+MainActivity	android/app/src/main/java/com/otherleft/MainActivity.java	/^public class MainActivity extends ReactActivity {$/;"	c
+MainApplication	android/app/src/main/java/com/otherleft/MainApplication.java	/^public class MainApplication extends Application implements ReactApplication {$/;"	c
+Menu	src/containers/Menu.js	/^export const Menu = memo(() => {$/;"	E
+PREPARE_ROUND_DURATION	src/config/constants.js	/^export const PREPARE_ROUND_DURATION = 1000;$/;"	E
+Playground	src/containers/Playground.js	/^export const Playground = memo(() => {$/;"	E
+React	src/components/Card.js	/^import * as React from 'react';$/;"	I
+Router	src/containers/Router.js	/^export const Router = () => {$/;"	E
+SIZE	src/config/metrics.js	/^export const SIZE = 4;$/;"	E
+THEME	src/config/theme.js	/^export const THEME = {$/;"	E
+TILE_SIZE	src/config/metrics.js	/^export const TILE_SIZE = CELL_SIZE - CELL_PADDING * 2;$/;"	E
+_SKIP	android/gradlew.bat	/^set _SKIP=2$/;"	v
+action	src/reducers/appReducer.js	/^export const appReducer = (state = initialState, action) => {$/;"	E
+action	src/reducers/gameReducer.js	/^export const gameReducer = (state = initialState, action) => {$/;"	E
+action	src/reducers/routerReducer.js	/^export const routerReducer = (state = initialState, action) => {$/;"	E
+action	src/reducers/statsReducer.js	/^export const statsReducer = (state = initialState, action) => {$/;"	E
+actions	src/actions/index.js	/^export const actions = {$/;"	E
+app	src/reducers/index.js	/^    app: appReducer,$/;"	P
+appName	index.js	/^import {name as appName} from '.\/app.json';$/;"	I
+appReducer	src/reducers/appReducer.js	/^export const appReducer = (state = initialState, action) => {$/;"	E
+borderRadius	src/components/Card.js	/^        borderRadius: 5,$/;"	P
+borderRadius	src/components/Card.js	/^        borderRadius: 8,$/;"	P
+borderRadius	src/components/GameCard.js	/^        borderRadius: 32,$/;"	P
+botWrapper	src/containers/Menu.js	/^    botWrapper: {$/;"	P
+buildCardStack	src/utils/buildCardStack.js	/^export const buildCardStack = () => {$/;"	E
+cardStack	src/reducers/gameReducer.js	/^    cardStack: [],$/;"	P
+cards	src/components/GameCard.js	/^    cards: {$/;"	P
+checkIfStackClearSaga	src/sagas/checkIfStackClearSaga.js	/^export const checkIfStackClearSaga = function*() {$/;"	E
+circle	src/components/GameCard.js	/^    circle: {$/;"	P
+clockX	src/components/GameCard.js	/^        const clockX = new Clock();$/;"	V
+clockY	src/components/GameCard.js	/^        const clockY = new Clock();$/;"	V
+com.otherleft	android/app/src/main/java/com/otherleft/MainActivity.java	/^package com.otherleft;$/;"	p
+com.otherleft	android/app/src/main/java/com/otherleft/MainApplication.java	/^package com.otherleft;$/;"	p
+config	src/components/GameCard.js	/^  const config = {$/;"	O
+constructor	src/components/GameCard.js	/^    constructor(props) {$/;"	M
+container	src/components/GameCard.js	/^    container: {$/;"	P
+container	src/containers/Menu.js	/^    container: {$/;"	P
+container	src/containers/Playground.js	/^    container: {$/;"	P
+countdown	src/sagas/runGameTimerSaga.js	/^const countdown = (seconds) => {$/;"	F
+createReduxStore	src/utils/createReduxStore.js	/^export const createReduxStore = (initialState = {}) => {$/;"	E
+damping	src/components/GameCard.js	/^    damping: 20,$/;"	P
+delay	src/utils/delay.js	/^export const delay = ms => new Promise(res => setTimeout(res, ms));$/;"	E
+die	android/gradlew	/^die () {$/;"	f
+effect	src/utils/useWhenFalse.js	/^  const effect = () => {$/;"	F
+end	android/gradlew.bat	/^:end$/;"	l
+execute	android/gradlew.bat	/^:execute$/;"	l
+experimentalImportSupport	metro.config.js	/^        experimentalImportSupport: false,$/;"	P
+exports	babel.config.js	/^module.exports = {$/;"	P
+exports	metro.config.js	/^module.exports = {$/;"	P
+fail	android/gradlew.bat	/^:fail$/;"	l
+findJavaFromJavaHome	android/gradlew.bat	/^:findJavaFromJavaHome$/;"	l
+flex	src/components/Card.js	/^        flex: 1,$/;"	P
+flex	src/components/GameCard.js	/^        flex: 1,$/;"	P
+flex	src/containers/Menu.js	/^        flex: 1,$/;"	P
+flex	src/containers/Playground.js	/^        flex: 1,$/;"	P
+flex	src/containers/Playground.js	/^        flex: 3,$/;"	P
+followThe	src/reducers/gameReducer.js	/^    followThe: null,$/;"	P
+fontSize	src/components/Card.js	/^        fontSize: 32,$/;"	P
+fontSize	src/containers/Menu.js	/^        fontSize: 20,$/;"	P
+fontSize	src/containers/Menu.js	/^        fontSize: 32,$/;"	P
+footer	src/components/Card.js	/^    footer: {$/;"	P
+footer	src/components/GameCard.js	/^    footer: {$/;"	P
+game	src/reducers/index.js	/^    game: gameReducer,$/;"	P
+gameArea	src/containers/Playground.js	/^    gameArea: {$/;"	P
+gameReducer	src/reducers/gameReducer.js	/^export const gameReducer = (state = initialState, action) => {$/;"	E
+getCardStack	src/reducers/gameReducer.js	/^export const getCardStack = state => state.game.cardStack;$/;"	E
+getIsAppReady	src/reducers/appReducer.js	/^export const getIsAppReady = state => state.app.isRehydrated;$/;"	E
+getMainComponentName	android/app/src/main/java/com/otherleft/MainActivity.java	/^    protected String getMainComponentName() {$/;"	m	class:MainActivity
+getReactNativeHost	android/app/src/main/java/com/otherleft/MainApplication.java	/^  public ReactNativeHost getReactNativeHost() {$/;"	m	class:MainApplication
+getScore	src/reducers/gameReducer.js	/^export const getScore = state => state.game.score;$/;"	E
+getTimeLeft	src/reducers/gameReducer.js	/^export const getTimeLeft = state => state.game.timeLeft;$/;"	E
+header	src/components/Card.js	/^    header: {$/;"	P
+header	src/components/GameCard.js	/^    header: {$/;"	P
+headerText	src/containers/Menu.js	/^    headerText: {$/;"	P
+height	src/components/Card.js	/^        height: null,$/;"	P
+height	src/components/GameCard.js	/^        height: 64,$/;"	P
+height	src/containers/Playground.js	/^        height: 50,$/;"	P
+highScore	src/reducers/statsReducer.js	/^    highScore: 0,$/;"	P
+image	src/components/Card.js	/^    image: {$/;"	P
+init	android/gradlew.bat	/^:init$/;"	l
+init	src/components/GameCard.js	/^    init = () => {$/;"	M
+initialState	src/reducers/appReducer.js	/^export const initialState = {$/;"	E
+initialState	src/reducers/gameReducer.js	/^export const initialState = {$/;"	E
+initialState	src/reducers/routerReducer.js	/^export const initialState = {$/;"	E
+initialState	src/reducers/statsReducer.js	/^export const initialState = {$/;"	E
+inlineRequires	metro.config.js	/^        inlineRequires: false,$/;"	P
+inputRange	src/components/GameCard.js	/^            inputRange: [-width \/ 2, width \/ 2],$/;"	P
+inputRange	src/components/GameCard.js	/^            inputRange: [-width \/ 4, 0],$/;"	P
+inputRange	src/components/GameCard.js	/^            inputRange: [0, width \/ 4],$/;"	P
+interval	src/sagas/runGameTimerSaga.js	/^        const interval = setInterval(() => {$/;"	F
+isRehydrated	src/reducers/appReducer.js	/^    isRehydrated: false,$/;"	P
+isRehydrating	src/reducers/appReducer.js	/^    isRehydrating: false$/;"	P
+like	src/components/Card.js	/^    like: {$/;"	P
+likeLabel	src/components/Card.js	/^    likeLabel: {$/;"	P
+mReactNativeHost	android/app/src/main/java/com/otherleft/MainApplication.java	/^  private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {$/;"	f	class:MainApplication	file:
+mainEnd	android/gradlew.bat	/^:mainEnd$/;"	l
+mapActions	src/containers/Menu.js	/^const mapActions = {$/;"	O
+mapActions	src/containers/Playground.js	/^const mapActions = {$/;"	O
+mapActions	src/containers/Router.js	/^const mapActions = {$/;"	O
+mapState	src/containers/Menu.js	/^const mapState = state => ({$/;"	F
+mapState	src/containers/Playground.js	/^const mapState = state => ({$/;"	F
+mapState	src/containers/Router.js	/^const mapState = state => ({$/;"	F
+margin	src/components/GameCard.js	/^        margin: 8,$/;"	P
+mass	src/components/GameCard.js	/^    mass: 1,$/;"	P
+middlewares	src/utils/createReduxStore.js	/^    const middlewares = [sagaMiddleware];$/;"	A
+ms	src/utils/delay.js	/^export const delay = ms => new Promise(res => setTimeout(res, ms));$/;"	E
+name	src/components/Card.js	/^    name: {$/;"	P
+nativeEvent	src/components/GameCard.js	/^                    nativeEvent: {$/;"	P
+navigateToMenu	src/containers/Playground.js	/^    navigateToMenu: () => ({ type: actions.navigateToMenu }),$/;"	M
+navigateToPlayground	src/containers/Menu.js	/^    navigateToPlayground: () => ({ type: actions.navigateToPlayground })$/;"	M
+nope	src/components/Card.js	/^    nope: {$/;"	P
+nopeLabel	src/components/Card.js	/^    nopeLabel: {$/;"	P
+omega	android/gradlew.bat	/^:omega$/;"	l
+onCreate	android/app/src/main/java/com/otherleft/MainApplication.java	/^  public void onCreate() {$/;"	m	class:MainApplication
+onFling	src/components/FlingView.js	/^    const onFling = ({ nativeEvent }, offset) => {$/;"	F
+onFlingFinished	src/components/FlingView.js	/^export const FlingView = memo(({ children, onFlingFinished }) => {$/;"	E
+outputRange	src/components/GameCard.js	/^            outputRange: [-15, 15],$/;"	P
+outputRange	src/components/GameCard.js	/^            outputRange: [0, 1],$/;"	P
+outputRange	src/components/GameCard.js	/^            outputRange: [1, 0],$/;"	P
+overlay	src/components/Card.js	/^    overlay: {$/;"	P
+overshootClamping	src/components/GameCard.js	/^    overshootClamping: false,$/;"	P
+padding	src/components/Card.js	/^        padding: 16,$/;"	P
+padding	src/components/Card.js	/^        padding: 8,$/;"	P
+padding	src/components/GameCard.js	/^        padding: 12,$/;"	P
+padding	src/components/GameCard.js	/^        padding: 16,$/;"	P
+persistSaga	src/sagas/persistSaga.js	/^export const persistSaga = function*() {$/;"	E
+presets	babel.config.js	/^  presets: ['module:metro-react-native-babel-preset'],$/;"	P
+pressBox	src/containers/Playground.js	/^    pressBox: {$/;"	P
+reduxStateToPersist	src/sagas/persistSaga.js	/^    const reduxStateToPersist = { stats: reduxState.stats };$/;"	O
+rehydrate	src/containers/Router.js	/^    rehydrate: () => ({ type: actions.rehydrate }),$/;"	M
+rehydrateSaga	src/sagas/rehydrateSaga.js	/^export const rehydrateSaga = function*() {$/;"	E
+render	src/components/GameCard.js	/^    render() {$/;"	M
+restSpeedThreshold	src/components/GameCard.js	/^    restSpeedThreshold: 1,$/;"	P
+rootReducer	src/reducers/index.js	/^export const rootReducer = combineReducers({$/;"	E
+rootSaga	src/sagas/index.js	/^export const rootSaga = function*() {$/;"	E
+router	src/reducers/index.js	/^    router: routerReducer,$/;"	P
+routerReducer	src/reducers/routerReducer.js	/^export const routerReducer = (state = initialState, action) => {$/;"	E
+runGameSaga	src/sagas/runGameSaga.js	/^export const runGameSaga = function*() {$/;"	E
+runGameTimerSaga	src/sagas/runGameTimerSaga.js	/^export const runGameTimerSaga = function*() {$/;"	E
+runRoundSaga	src/sagas/runRoundSaga.js	/^export const runRoundSaga = function*() {$/;"	E
+runSpring	src/components/GameCard.js	/^function runSpring(clock, value, dest) {$/;"	F
+save	android/gradlew	/^save () {$/;"	f
+score	src/reducers/gameReducer.js	/^    score: 0,$/;"	P
+score	src/reducers/statsReducer.js	/^    score: 0$/;"	P
+shadowOffset	src/components/GameCard.js	/^        shadowOffset: { width: 1, height: 1 },$/;"	P
+shadowRadius	src/components/GameCard.js	/^        shadowRadius: 2,$/;"	P
+stack	src/utils/buildCardStack.js	/^    let stack = [];$/;"	A
+startGame	src/containers/Playground.js	/^    startGame: () => ({ type: actions.startGame }),$/;"	M
+state	src/components/GameCard.js	/^  const state = {$/;"	O
+stats	src/reducers/index.js	/^    stats: statsReducer$/;"	P
+statsArea	src/containers/Playground.js	/^    statsArea: {$/;"	P
+statsReducer	src/reducers/statsReducer.js	/^export const statsReducer = (state = initialState, action) => {$/;"	E
+stiffness	src/components/GameCard.js	/^    stiffness: 100,$/;"	P
+style	src/components/GameCard.js	/^        const style = {$/;"	O
+successOpacity	src/components/Card.js	/^export const Card = ({ card, successOpacity = 0, failOpacity = 0 }) => {$/;"	E
+swipe	src/components/GameCard.js	/^    swipe = ([ translationX ]) => {$/;"	M
+swipe	src/containers/Playground.js	/^    swipe: () => ({ type: actions.swipe }),$/;"	M
+swipeText	src/containers/Menu.js	/^    swipeText: {$/;"	P
+timeLeft	src/reducers/gameReducer.js	/^    timeLeft: INITIAL_TIME,$/;"	P
+toRadians	src/components/GameCard.js	/^const toRadians = angle => angle * (Math.PI \/ 180);$/;"	F
+topWrapper	src/containers/Menu.js	/^    topWrapper: {$/;"	P
+touchX	src/components/FlingView.js	/^    let touchX = new Animated.Value(0);$/;"	V
+transform	metro.config.js	/^      transform: {$/;"	P
+transform	src/components/GameCard.js	/^            transform: [$/;"	P
+transformer	metro.config.js	/^  transformer: {$/;"	P
+useMappedActions	src/utils/useMappedActions.js	/^export function useMappedActions(actionsObject) {$/;"	E
+useNativeDriver	src/components/FlingView.js	/^                useNativeDriver: true,$/;"	P
+useOnMount	src/utils/useOnMount.js	/^export function useOnMount(f) {$/;"	E
+useOnUpdate	src/utils/useOnUpdate.js	/^export function useOnUpdate(func, value) {$/;"	E
+usePrevious	src/utils/usePrevious.js	/^export function usePrevious(value) {$/;"	E
+useWhenFalse	src/utils/useWhenFalse.js	/^export const useWhenFalse = (func, value) => {$/;"	E
+useWhenIncreases	src/utils/useWhenIncreases.js	/^export function useWhenIncreases(func, value) {$/;"	E
+value	src/utils/useWhenFalse.js	/^export const useWhenFalse = (func, value) => {$/;"	E
+warn	android/gradlew	/^warn () {$/;"	f
+width	src/components/Card.js	/^        width: null,$/;"	P
+width	src/components/GameCard.js	/^        width: 64,$/;"	P
+width	src/containers/Playground.js	/^        width: 50,$/;"	P
+win9xME_args	android/gradlew.bat	/^:win9xME_args$/;"	l
+win9xME_args_slurp	android/gradlew.bat	/^:win9xME_args_slurp$/;"	l
+window	ios/OtherLeft/AppDelegate.h	/^@property (nonatomic, strong) UIWindow *window;$/;"	v
+wrapper	src/components/FlingView.js	/^    wrapper: {$/;"	P
+zIndex	src/components/GameCard.js	/^            zIndex: 900,$/;"	P
+zIndex	src/components/GameCard.js	/^        zIndex: 100,$/;"	P
